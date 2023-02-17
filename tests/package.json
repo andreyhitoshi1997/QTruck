@@ -1,0 +1,19 @@
+{
+  "name": "qtruck-tests",
+  "version": "1.0.0",
+  "description": "Projeto de testes de ponta a ponta naa web app QTruck",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "12.6.0",
+    "cypress-mongodb": "^5.1.4"
+  },
+  "dependencies": {
+    "cypress-browser-permissions": "^1.1.0"
+  }
+}
